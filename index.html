@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ポートフォリオサイト</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="header__logo">
+          <h1>
+            <a href="index.html">
+              <!-- 記載番号：1 -->
+              <span class="header__logo-title">Mion Ikeya</span>
+              <span class="header__logo-sub">Portfolio</span>
+            </a>
+          </h1>
+        </div>
+        <div class="header__hamburger">
+          <i></i>
+        </div>
+        <nav class="header__gnav">
+          <ul class="header__gnav-list">
+            <li class="header__gnav-item"><a href="#a-profile">PROFILE</a></li>
+            <li class="header__gnav-item"><a href="#a-skill">SKILL</a></li>
+            <li class="header__gnav-item"><a href="#a-works">WORKS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="firstview firstview-bg">
+        <div class="firstview__inner">
+          <div class="firstview__main">
+            <div class="firstview__main-pict obj-fit-img">
+              <!-- imagesに配置した、プロフィール画像のパスを記載する -->
+              <img src="./images/profile-image.jpeg">
+            </div>
+            <div class="firstview__info">
+              <h2>
+                <!-- 記載番号：2 -->
+                <span class="firstview__info-name">池谷　美音</span>
+                <!-- 記載番号：3 -->
+                <span class="firstview__info-name-sm">Mion Ikeya</span>
+              </h2>
+              <ul class="firstview__info-origin-list">
+                <!-- 記載番号：4 -->
+                <li class="firstview__info-origin-item">1992年12月25日生まれ</li>
+                <!-- 記載番号：5 -->
+                <li class="firstview__info-origin-item">埼玉県出身</li>
+              </ul>
+              <ul class="firstview__info-account-list">
+                <li class="firstview__info-account-item">
+                  <!-- 記載番号：7 -->
+                  <a href="https://github.com/mionpuuu" target="_blank">
+                    <img src="./images/icon-firstview-info-github.svg" class="firstview__info-account-pict">
+                    <span  class="firstview__info-account-name">github</span>
+                  </a>
+              </ul>
+            </div>
+          </div>
+          <div class="firstview__point">
+            <div class="firstview__point-heading">
+              <h3>POINT</h3>
+            </div>
+            <ul class="firstview__point-list">
+              <!-- 記載番号：10 -->
+              <li class="firstview__point-item">営業・海外業務で培った課題発見力 × 開発スキル</li>
+              <li class="firstview__point-item">プログラミング学習では、計画より前倒しでカリキュラムを完了</li>
+              <li class="firstview__point-item">Ruby on Rails・HTML・CSS・JavaScriptを中心に、基礎からアプリ開発まで一貫して学習。</li>
+              <li class="firstview__point-item">オリジナルアプリではチーム活動管理アプリを制作</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section id="a-profile" class="profile">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>PROFILE<span>プロフィール</span></h2>
+          </div>
+          <div class="contents">
+            <!-- 記載番号：11 -->
+            <div class="profile__text-area">
+              <p>
+                2015年に大学を卒業後、ホテル業界・製造業・決済業界など、異なる業界で営業や海外業務、品質管理など幅広い経験を積んできました。これまでの多様な職務経験を通じて培った高い環境適応能力とチームワーク・コミュニケーション能力を強みとしています。
+                <br>
+                前職までの業務の中で「ユーザーにとって最適ではない仕組みやプロセス」を技術の力で改善したいと考え、エンジニアを志しました。
+                <br>
+                現在はこの目標を実現するため、培ってきた適応力と学習意欲を活かし、Ruby on Railsを中心としたWeb開発技術を習得しています。課題発見力と技術力を掛け合わせ、ユーザー視点と技術視点の両面から価値を生み出せるエンジニアを目指しています。
+              </p>
+              
+              <p> 
+                プライベートでは、卓球とフィットネスを習慣としています。卓球チームに所属し、定期的に試合に出場することで、目標達成に向けた粘り強さやチームワークを磨いています。
+                <br>
+                また、FEELCYCLE（バイクエクササイズ）に熱中しており、週2〜3回朝の習慣として取り組むことで継続的な自己管理を行っています。
+                <br>
+                さらに、得意な英語についても、ラジオやアプリを活用して日々スキルアップを図っており、常に新しい知識を吸収する姿勢とグローバルな視野を大切にしています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="a-skill" class="skill">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>SKILL<span>スキル</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="skill__list">
+              <!-- 記載番号：12 -->
+              <li class="skill__item">
+                <h3>コーディング</h3>
+                <h4>HTML / CSS</h4>
+                <!-- <p>補足事項がある場合は、ここにp要素を用いて記載します。</p> -->
+              </li>
+              <!-- 記載番号：13 -->
+              <li class="skill__item">
+                <h3>フロントエンド</h3>
+                <h4>JavaScript</h4>
+              </li>
+              <!-- 記載番号：14 -->
+              <li class="skill__item">
+                <h3>バックエンド</h3>
+                <h4>Ruby（Ruby on Rails）</h4>
+              </li>
+              <!-- 記載番号：15 -->
+              <li class="skill__item">
+                <h3>データベース・インフラ</h3>
+                <h4>MySQL / AWS / Render</h4>
+              </li>
+              <!-- 記載番号：16 -->
+              <li class="skill__item">
+                <h3>その他</h3>
+                <h4>GitHub / Slack</h4>
+                <p>
+                  こちらは開発等で使用しているツールです。
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- 記載番号：17 -->
+          <div class="skill__text-area">
+            <p>
+              2025年9月よりプログラミングスクールにて、Ruby on Railsを中心にWebアプリケーション開発を学習しました。
+              現在も引き続き学習を継続しており、JavaScriptやPython、Javaなど幅広い言語を通して、開発スキルの向上に取り組んでいます。
+              <br>
+              バックエンドだけでなく、ユーザーにとって使いやすいフロントエンド開発にも関心があり、今後はUI／UXを意識した実装スキルをさらに磨いていきたいと考えています。
+              学習内容やスキルの詳細は、以下の制作実績にてご確認いただけます。
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="a-works" class="works">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>WORKS<span>実績</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="works__list">
+              <li class="works__item">
+                <div class="works__item-pict">
+                  <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+                  <a href="works/01.html" style="background-image:url('./images/work/01/furima.jpeg');"></a>
+                </div>
+                <div class="works__item-text-block">
+                  <!-- 記載番号：18 -->
+                  <h3>FURIMA（フリマアプリ）</h3>
+                  <!-- 記載番号：19 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Render / Visual Studio Code</p>
+                </div>
+                <div class="works__item-btn-block">
+                  <a href="works/01.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="works__item">
+                <div class="works__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="works/02.html" style="background-image:url('./images/work/02/team-connector.png');"></a>
+                </div>
+                <div class="works__item-text-block">
+                  <!-- 記載番号：20 -->
+                  <h3>Team Connector（チーム予定管理アプリ）</h3>
+                  <!-- 記載番号：21 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Render / Visual Studio Code</p>
+                </div>
+                <div class="works__item-btn-block">
+                  <a href="works/02.html" class="button">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 記載番号：1 -->
+    <footer id="footer" class="footer"><p>&copy; Mion Ikeya.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ofi.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
